@@ -76,7 +76,7 @@ export const SolutionsSection = () => {
             className="flex flex-col overflow-hidden rounded-xl shadow-md transition-transform hover:shadow-lg hover:-translate-y-1 bg-white"
           >
             {/* Image section */}
-            <div className="relative h-50 sm:h-50 md:h-54 w-full">
+            <div className="relative h-45 sm:h-40 md:h-45 w-full">
               <img
                 src={solution.image}
                 alt={solution.title}
