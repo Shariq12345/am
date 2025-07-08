@@ -11,15 +11,10 @@ import {
   X,
   ChevronDown,
   Linkedin,
-  Globe,
   Shield,
   Settings,
   BarChart3,
   Users,
-  Code,
-  Server,
-  Smartphone,
-  Cloud,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { ContactModal } from "./ContactModal";
