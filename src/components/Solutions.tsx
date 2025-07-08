@@ -5,7 +5,7 @@ const solutions = [
   {
     title: "Business Advisory",
     description:
-      "Expert guidance to navigate challenges, optimize performance, and achieve strategic goals",
+      "Expert guidance to navigate challenges and optimize performance",
     image: "/images/business-advisory.jpg",
     href: "/services/advisory",
   },
@@ -19,14 +19,14 @@ const solutions = [
   {
     title: "Business Support Services",
     description:
-      "Streamline operations with contract staffing, corporate training and business process outsourcing",
+      "Streamline operations with contract staffing and business process outsourcing",
     image: "/images/business-support.jpg",
     href: "/services/business-support",
   },
   {
     title: "Assurance Services",
     description:
-      "Ensure compliance and build trust with our comprehensive audit, compliance and risk management solutions",
+      "Ensure compliance and enhance trust with our comprehensive assurance solutions",
     image: "/images/business-assurance.jpg",
     href: "/services/assurance",
   },
@@ -62,7 +62,7 @@ export const SolutionsSection = () => {
       {/* Subtitle */}
       <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 max-w-3xl">
         Explore our suite of specialized services designed to streamline your
-        operations, modernize infrastructure, and drive long-term growth.
+        operations, modernize infrastructure, and drive long-term growth
       </p>
 
       {/* Divider */}
@@ -92,7 +92,7 @@ export const SolutionsSection = () => {
 
             {/* Text section */}
             <div className="p-5 flex flex-col justify-between flex-grow">
-              <p className="text-sm text-gray-700 leading-relaxed mb-4 line-clamp-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-4 line-clamp-3">
                 {solution.description}
               </p>
               <div className="pt-3 border-t border-gray-200 mt-auto">
