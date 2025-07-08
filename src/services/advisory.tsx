@@ -144,13 +144,13 @@ const AdvisoryPage = () => {
               <Award size={16} />
               Trusted by Organizations Worldwide
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               Strategic Business Advisory
               <span className="block text-emerald-600">
                 That Drives Results
               </span>
             </h1>
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
               Partner with seasoned financial experts to unlock strategic
               insights, optimize performance, and build resilient operations
               that fuel sustainable growth in today's dynamic business
@@ -297,10 +297,10 @@ const AdvisoryPage = () => {
       <section className="px-4 sm:px-6 md:px-10 lg:px-[118px] py-24 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Why Leading Organizations Choose Us
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base text-gray-600 max-w-3xl mx-auto">
               We combine deep industry expertise with innovative methodologies
               to deliver transformational results that last.
             </p>
@@ -317,7 +317,7 @@ const AdvisoryPage = () => {
                     <item.icon className="h-6 w-6 text-emerald-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
@@ -335,10 +335,10 @@ const AdvisoryPage = () => {
       <section className="px-4 sm:px-6 md:px-10 lg:px-[118px] py-24 bg-gray-900">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
               What Our Clients Say
             </h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+            <p className="text-base text-gray-300 max-w-3xl mx-auto">
               Don't just take our word for it—hear from the leaders who've
               transformed their organizations with our advisory services.
             </p>
