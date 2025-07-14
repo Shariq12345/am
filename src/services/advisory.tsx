@@ -140,7 +140,7 @@ const AdvisoryPage = () => {
       <section className="relative px-4 sm:px-6 md:px-10 lg:px-[118px] pt-20 pb-32 bg-gradient-to-br from-emerald-50 via-white to-emerald-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="hidden md:inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Award size={16} />
               Trusted by Organizations Worldwide
             </div>
@@ -152,22 +152,20 @@ const AdvisoryPage = () => {
             </h1>
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
               Partner with seasoned financial experts to unlock strategic
-              insights, optimize performance, and build resilient operations
-              that fuel sustainable growth in today's dynamic business
-              environment.
+              insights, optimize performance
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
                 onClick={() => (window.location.href = "/contact")}
-                className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-3 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                Start Your Transformation <ArrowRight size={18} />
+                Start Your Transformation
               </button>
               <button
                 onClick={() => (window.location.href = "/case-studies")}
-                className="inline-flex items-center gap-2 border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-50 font-semibold px-8 py-4 rounded-full transition-all duration-200"
+                className="inline-flex items-center gap-2 border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-50 font-semibold px-5 py-3 rounded-full transition-all duration-200"
               >
-                View Case Studies <BarChart3 size={18} />
+                View Case Studies
               </button>
             </div>
           </div>
