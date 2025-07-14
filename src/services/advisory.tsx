@@ -6,7 +6,6 @@ import {
   Shield,
   Target,
   Award,
-  Clock,
   DollarSign,
   Star,
 } from "lucide-react";
@@ -16,7 +15,7 @@ const sections = [
     title: "Process Improvement",
     description:
       "We help to improve, rationalize, and enhance core Finance processes such as accounts receivables, payables, fixed assets, closing activities, consolidation, and MIS reporting. Our support empowers CFOs and finance teams to meet the demands of evolving roles, finance function effectiveness, data quality, internal controls, and governance.",
-    image: "/images/process-improvement.jpg",
+    image: "/images/advisory/process-improvement.jpg",
     features: [
       "Accounts Receivable & Payable Optimization",
       "Fixed Asset Management Systems",
@@ -31,7 +30,7 @@ const sections = [
     title: "Performance Alignment",
     description:
       "We align business performance with incentive structures, enabling CFOs to deliver timely, accessible, and relevant decision-making information with confidence and transparency.",
-    image: "/images/performance-alignment.jpg",
+    image: "/images/advisory/performance-alignment.jpg",
     features: [
       "KPI Development & Monitoring",
       "Balanced Scorecard Implementation",
@@ -46,7 +45,7 @@ const sections = [
     title: "Risk Assessment",
     description:
       "Organizations face unprecedented risks. We ensure comprehensive risk identification and robust management systems are in place to mitigate these threats effectively.",
-    image: "/images/risk-assessment.jpg",
+    image: "/images/advisory/risk-assessment.jpg",
     features: [
       "Enterprise Risk Management Framework",
       "Operational Risk Assessment",
@@ -61,7 +60,7 @@ const sections = [
     title: "Project Accounting & PMO Services",
     description:
       "We provide end-to-end support across project lifecycles—from planning to rollout and benefit realization—covering budgeting, forecasting, variance analysis, PMO operations, contract and risk management, and performance reporting.",
-    image: "/images/project-accounting.jpg",
+    image: "/images/advisory/project-accounting.jpg",
     features: [
       "Project Budget & Forecast Management",
       "Variance Analysis & Reporting",
@@ -432,12 +431,12 @@ const AdvisoryPage = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="px-4 sm:px-6 md:px-10 lg:px-[118px] py-24 bg-emerald-600">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="mt-[120px] px-4 md:px-16 lg:px-[118px]">
+        <div className="relative w-full bg-emerald-600 rounded-xl shadow-lg overflow-hidden py-16 px-6 sm:px-10 lg:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Ready to Transform Your Business?
           </h2>
-          <p className="text-lg sm:text-xl text-emerald-100 mb-8 leading-relaxed">
+          <p className="text-lg sm:text-xl text-emerald-100 mb-8 leading-relaxed max-w-3xl mx-auto">
             Join hundreds of organizations that have achieved remarkable results
             through our strategic advisory services. Let's discuss how we can
             accelerate your success.
@@ -446,15 +445,15 @@ const AdvisoryPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <button
               onClick={() => (window.location.href = "/contact")}
-              className="inline-flex items-center gap-2 bg-white text-emerald-600 hover:bg-gray-100 font-semibold px-8 py-4 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-2 bg-white text-emerald-600 hover:bg-gray-100 font-semibold px-5 py-3 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              Schedule Free Consultation <ArrowRight size={18} />
+              Schedule Free Consultation
             </button>
             <button
               onClick={() => (window.location.href = "/download-brochure")}
-              className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-emerald-600 font-semibold px-8 py-4 rounded-full transition-all duration-200"
+              className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-emerald-600 font-semibold px-5 py-3 rounded-full transition-all duration-200"
             >
-              Download Our Brochure <Clock size={18} />
+              Download Our Brochure
             </button>
           </div>
 
