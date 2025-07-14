@@ -73,7 +73,7 @@ export const SolutionsSection = () => {
         {solutions.map((solution, index) => (
           <div
             key={index}
-            className="flex flex-col overflow-hidden rounded-xl shadow-md transition-transform hover:shadow-lg hover:-translate-y-1 bg-white"
+            className="flex flex-col overflow-hidden rounded-sm shadow-md transition-transform hover:shadow-lg hover:-translate-y-1 bg-white"
           >
             {/* Image section */}
             <div className="relative h-45 sm:h-40 md:h-45 w-full">

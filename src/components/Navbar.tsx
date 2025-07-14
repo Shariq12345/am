@@ -296,7 +296,7 @@ export const Navbar = () => {
           <div className="flex items-center space-x-3">
             <Button
               onClick={() => setIsModalOpen(true)}
-              className="hidden lg:flex bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-5 py-5 rounded-md shadow-md hover:shadow-lg transition-all duration-200 text-base font-medium cursor-pointer"
+              className="hidden lg:flex bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-5 py-5 rounded-md shadow-md hover:shadow-lg transition-all duration-200 text-sm font-medium cursor-pointer"
             >
               Get in Touch
             </Button>
