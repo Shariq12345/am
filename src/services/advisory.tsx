@@ -8,7 +8,6 @@ import {
   Award,
   Clock,
   DollarSign,
-  BarChart3,
   Star,
 } from "lucide-react";
 
