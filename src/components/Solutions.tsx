@@ -6,42 +6,42 @@ const solutions = [
     title: "Business Advisory",
     description:
       "Expert guidance to navigate challenges and optimize performance",
-    image: "/images/business-advisory.jpg",
+    image: "/images/business-advisory.webp",
     href: "/services/advisory",
   },
   {
     title: "Business Consulting",
     description:
       "Transform your business with financial planning, strategy, and operational excellence",
-    image: "/images/business-consulting.jpg",
+    image: "/images/business-consulting.webp",
     href: "/services/business-consulting",
   },
   {
     title: "Business Support Services",
     description:
       "Streamline operations with contract staffing and business process outsourcing",
-    image: "/images/business-support.jpg",
+    image: "/images/business-support.webp",
     href: "/services/business-support",
   },
   {
     title: "Assurance Services",
     description:
       "Ensure compliance and enhance trust with our comprehensive assurance solutions",
-    image: "/images/business-assurance.jpg",
+    image: "/images/business-assurance.webp",
     href: "/services/assurance",
   },
   // {
   //   title: "Mobile App Development",
   //   description:
   //     "Native and cross-platform apps designed to engage users and optimize mobile workflows",
-  //   image: "/images/mobile.jpg",
+  //   image: "/images/mobile.webp",
   //   href: "/services/mobile",
   // },
   // {
   //   title: "AI, Analytics & Automation",
   //   description:
   //     "Leverage data-driven insights and automation to enhance decision-making and efficiency",
-  //   image: "/images/ai.jpg",
+  //   image: "/images/ai.webp",
   //   href: "/services/ai-analytics",
   // },
 ];
@@ -83,7 +83,7 @@ export const SolutionsSection = () => {
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent px-5 py-3">
+              <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/90 to-transparent px-5 py-3">
                 <h3 className="text-white text-lg font-semibold">
                   {solution.title}
                 </h3>

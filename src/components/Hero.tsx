@@ -15,19 +15,19 @@ import "./Hero.css";
 
 const slides = [
   {
-    image: "/Hero.jpg",
+    image: "/Hero.webp",
     title: "Empowering Growth Through Strategic Advisory",
     subtitle:
-      "Navigate complex challenges with expert guidance in consulting, compliance, and assurance. We align your vision with tailored business solutions for measurable success",
+      "Navigate complex challenges with expert guidance in consulting, compliance, and assurance",
   },
   {
-    image: "/Hero2.jpg",
+    image: "/Hero2.webp",
     title: "Drive Innovation with Modern IT Consulting",
     subtitle:
-      "Leverage cutting-edge technology strategies to future-proof your business. Our IT experts deliver scalable solutions in cloud, cybersecurity, and digital transformation.",
+      "Transform your business with cutting-edge IT solutions. From digital transformation to cybersecurity",
   },
   {
-    image: "/Hero3.jpg",
+    image: "/Hero3.webp",
     title: "Build Smarter with Custom Software & Cloud Services",
     subtitle:
       "Accelerate growth with robust, secure, and scalable applications. From cloud migration to mobile apps, we turn your ideas into reliable digital products.",
@@ -58,6 +58,7 @@ export const Hero = () => {
               <img
                 src={slide.image}
                 alt={`Slide ${index + 1}`}
+                loading={index === 0 ? "eager" : "lazy"}
                 className="object-cover w-full h-full absolute inset-0"
               />
 

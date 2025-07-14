@@ -8,7 +8,7 @@ export const CTABanner = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/cta-image.png" // Replace with your actual image path
+            src="/cta-image.webp" // Replace with your actual image path
             alt="CTA Background"
             className="w-full h-full object-cover"
           />
