@@ -14,7 +14,7 @@ const solutions = [
     description:
       "Transform your business with financial planning, strategy, and operational excellence",
     image: "/images/business-consulting.webp",
-    href: "/services/business-consulting",
+    href: "/services/consulting",
   },
   {
     title: "Business Support Services",

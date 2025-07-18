@@ -136,15 +136,17 @@ export const Navbar = () => {
         }`}
       >
         {/* Top bar with gradient */}
-        <div className="hidden lg:flex justify-between items-center bg-gradient-to-r from-emerald-600 to-emerald-800 px-6 xl:px-20 h-11">
+        <div className="hidden lg:flex justify-between items-center bg-gradient-to-r from-emerald-600 to-emerald-800 px-6 xl:px-20 h-9">
           <div className="flex items-center space-x-8 text-sm">
             <div className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors">
-              <Phone size={14} />
-              <span className="font-medium">+91 876 217 8672</span>
+              <Phone size={12} />
+              <span className="font-medium text-sm">+91 876 217 8672</span>
             </div>
             <div className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors">
-              <Mail size={14} />
-              <span className="font-medium">info@amconsultingservices.com</span>
+              <Mail size={12} />
+              <span className="font-medium text-sm">
+                info@amconsultingservices.com
+              </span>
             </div>
           </div>
           <div className="flex items-center space-x-4">
